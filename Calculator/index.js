@@ -12,9 +12,14 @@ function clearDisplay(){
 
 function calculate(){
     try{
-        display.value = eval(display.value);
+            let expression = display.value;
+            if(expression.includes("%")){
+                expression = expression.replace(/(\d+(\.\d+)?)%/g, "($1 * 0.01)");
+            }
+            display.value = eval(expression);
+        
     }
     catch(error){
         display.value = "Error";
     }
-}ṭ
+}
