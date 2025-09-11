@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e72c94ffa9af1a51",
+        "id": "fca62b2acfae3c89",
         "type": "tabs",
         "children": [
           {
-            "id": "daa806542080f56b",
+            "id": "c28762326705aa80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "58. Calculator App.md",
+                "file": "64. Key Events.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "58. Calculator App"
+              "title": "64. Key Events"
+            }
+          },
+          {
+            "id": "ea237f70ada206fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "65. Hide-Show HTML Element.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "65. Hide-Show HTML Element"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#fruits",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 281.5
   },
   "right": {
     "id": "33f10436b229ca4f",
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript.md",
+                "file": "64. Key Events.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JavaScript"
+              "title": "Backlinks for 64. Key Events"
             }
           },
           {
@@ -169,21 +184,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "daa806542080f56b",
+  "active": "ea237f70ada206fa",
   "lastOpenFiles": [
+    "64. Key Events.md",
+    "65. Hide-Show HTML Element.md",
+    "Attachments/image-23.png",
+    "Align-items vs Align-content in Flexbox.md",
+    "Attachments/image-22.png",
+    "Attachments/image-21.png",
+    "Attachments/image-20.png",
+    "Attachments/image-19.png",
+    "Attachments/image-18.png",
+    "Attachments/image-17.png",
+    "Attachments/image-16.png",
+    "63. Event Listeners.md",
+    "Attachments/image-15.png",
+    "Attachments/image-14.png",
+    "62. Add and Change HTML.md",
+    "61. DOM Navigation.md",
     "CSS Grid.md",
-    "image-6.png",
-    "image-5.png",
-    "image-4.png",
-    "image-3.png",
-    "image-2.png",
-    "image-1.png",
-    "image.png",
+    "JavaScript regex.md",
     "57 Errors.md",
-    "Untitled.base",
-    "Pasted image 20250904181708.png",
-    "58. Calculator App.md",
     "56. Synchronous and Asynchronous Code.md",
+    "59. DOM in JavaScript.md",
+    "Attachments",
+    "60. Element selectors.md",
+    "58. Calculator App.md",
+    "Untitled.base",
     "Untitled.canvas",
     "create a link.md",
     "Welcome.md"
