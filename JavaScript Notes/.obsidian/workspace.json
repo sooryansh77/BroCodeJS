@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "178b8495eb631a2f",
+        "id": "af64db5816cc6b05",
         "type": "tabs",
         "children": [
           {
-            "id": "52d2f531111aa5b4",
+            "id": "4f69d2715aeea897",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BroCode JavaScript/57 Errors.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "57 Errors"
+              "title": "New tab"
             }
           }
         ]
@@ -169,10 +165,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "52d2f531111aa5b4",
+  "active": "4f69d2715aeea897",
   "lastOpenFiles": [
-    "BroCode JavaScript/56. Synchronous and Asynchronous Code.md",
     "BroCode JavaScript/57 Errors.md",
+    "BroCode JavaScript/56. Synchronous and Asynchronous Code.md",
     "57. Exception Handling.md",
     "-hovernotes.base",
     "-video-screenshots.base",

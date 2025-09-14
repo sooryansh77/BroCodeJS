@@ -8,35 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c28762326705aa80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "64. Key Events.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "64. Key Events"
-            }
-          },
-          {
             "id": "ea237f70ada206fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "65. Hide-Show HTML Element.md",
+                "file": "66. NodeList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "65. Hide-Show HTML Element"
+              "title": "66. NodeList"
+            }
+          },
+          {
+            "id": "dd2c9649fc680b29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "67. classList.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "67. classList"
+            }
+          },
+          {
+            "id": "7283fa36c1b45ecf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "68. Rock Paper Scissors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "68. Rock Paper Scissors"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,22 +198,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "ea237f70ada206fa",
+  "active": "7283fa36c1b45ecf",
   "lastOpenFiles": [
-    "64. Key Events.md",
+    "67. classList.md",
+    "68. Rock Paper Scissors.md",
+    "Attachments/image-38.png",
+    "66. NodeList.md",
+    "Attachments/image-37.png",
+    "Attachments/image-36.png",
+    "Attachments/image-35.png",
+    "Attachments/image-34.png",
+    "Attachments/image-33.png",
+    "Attachments/image-32.png",
+    "Attachments/image-31.png",
+    "Attachments/image-30.png",
+    "CSS Specificity.md",
+    "cascading.md",
+    "Attachments/image-29.png",
+    "60. Element selectors.md",
     "65. Hide-Show HTML Element.md",
-    "Attachments/image-23.png",
+    "64. Key Events.md",
     "Align-items vs Align-content in Flexbox.md",
-    "Attachments/image-22.png",
-    "Attachments/image-21.png",
-    "Attachments/image-20.png",
-    "Attachments/image-19.png",
-    "Attachments/image-18.png",
-    "Attachments/image-17.png",
-    "Attachments/image-16.png",
     "63. Event Listeners.md",
-    "Attachments/image-15.png",
-    "Attachments/image-14.png",
     "62. Add and Change HTML.md",
     "61. DOM Navigation.md",
     "CSS Grid.md",
@@ -208,7 +228,6 @@
     "56. Synchronous and Asynchronous Code.md",
     "59. DOM in JavaScript.md",
     "Attachments",
-    "60. Element selectors.md",
     "58. Calculator App.md",
     "Untitled.base",
     "Untitled.canvas",
