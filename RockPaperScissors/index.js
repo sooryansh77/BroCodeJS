@@ -1,25 +1,75 @@
-const buttons = document.querySelectorAll(".myButton");
+let score=0;
+let randomizer;
+const handArray = ['rock', 'paper', 'scissor'];
+let computerHand;
+let inResult;
+const playerTurn = document.getElementById("player-turn");
+const computerTurn = document.getElementById("computer-turn");
+const result = document.getElementById("result");
+const scoreBoard = document.getElementById("scoreBoard");
 
-buttons.forEach(button => {
-    button.classList.add("enabled");
+scoreBoard.textContent = `SCORE: ${score}`;
 
-    button.addEventListener("click", event=>{
-        if(event.target.classList.contains("disabled")){
-            event.target.textContent += "🤬";
+function playGame(userHand){
+    randomizer = Math.floor(Math.random()*3 );
+    computerHand = handArray[randomizer];
+    playerTurn.textContent = `PLAYER TURN:  ${userHand}`;
+    computerTurn.textContent = `COMPUTER TURN: ${computerHand}`;
+
+    if(userHand == computerHand){
+        inResult = "tie";
+    }
+    else{
+        switch(userHand){
+        case 'rock':
+            inResult = (computerHand === 'scissor') ? "win" : "lose";
+            break;
+        
+        case 'paper':
+            inResult = (computerHand === 'rock') ? "win" : "lose";
+            break;
+
+        case 'scissor':
+            inResult = (computerHand === 'paper') ? "win" : "lose";
+            break;
+    }
+    }
+
+    if(inResult == "tie"){
+        if(result.classList.contains("win")){
+            result.classList.remove("win");
         }
-        else{
-            event.target.classList.replace("enabled","disabled");
+        else if(result.classList.contains("lose")){
+            result.classList.remove("lose");
         }
-    })
-
-
-    button.addEventListener("mouseover", event => {
-        event.target.classList.toggle("hover");
-    })
-
-    button.addEventListener("mouseout", event => {
-        event.target.classList.toggle("hover");
-    })
-
-
-})
+        result.classList.add("tie");
+        result.textContent = "It's a TIE 😅";
+        
+        
+    }
+    else if(inResult == "win"){
+        score += 10;
+        if(result.classList.contains("tie")){
+            result.classList.remove("tie");
+        }
+        else if(result.classList.contains("lose")){
+            result.classList.remove("lose");
+        }
+        result.classList.add("win");
+        result.textContent = "YOU WON 😎";
+        
+    }
+    else{
+        if(score > 0)
+            score -= 10;
+        if(result.classList.contains("win")){
+            result.classList.remove("win");
+        }
+        else if(result.classList.contains("tie")){
+            result.classList.remove("tie");
+        }
+        result.classList.add("lose");
+        result.textContent = "YOU LOSE 🥲";
+    }
+    scoreBoard.textContent = `SCORE: ${score}`;
+}

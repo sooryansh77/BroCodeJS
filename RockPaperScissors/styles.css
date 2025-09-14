@@ -1,22 +1,57 @@
-.myButton{
-    font-size: 4rem;
+body{
+    font-family: "Arial";
+}
+
+#heading{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 2.2rem;
+    color: hsl(197, 100%, 40%);
+}
+
+#hand-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#rock-btn, #paper-btn, #scissor-btn{
     border: none;
-    margin: 10px;
-    padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 40px;
+    cursor: pointer;
+
 }
 
-.enabled{
-    background-color: hsl(217, 100%, 50%);
-    color: white;
+#rock-btn:hover, #paper-btn:hover, #scissor-btn:hover{
+    transition-duration: 50ms;
+    transform: scale(1.1);
+    background-color: hsl(197, 100%, 80%);
 }
 
-.hover{
-    font-weight: bold;
-    box-shadow: 0 0 10px hsla(0, 0%, 50%, 0.54)
+#rock-btn:active, #paper-btn:active, #scissor-btn:active{
+    transition-duration: 50ms;
+    transform: scale(1.0);
+    background-color: hsl(197, 100%, 60%);
 }
 
-.disabled{
-    background-color: hsl(0, 58%, 54%);
-    color: white;
+#result-window{
+    text-align: center;
+}
+
+#result, #scoreBoard{
+    font-size: 2rem;
+}
+
+.win{
+    color: green;
+}
+
+.lose{
+    color: red;
+}
+
+.tie{
+    color: hsl(35, 100%, 45%);
 }

@@ -5,15 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayGround</title>
     <link rel="stylesheet" href="./styles.css">
-    
+    <script src="https://kit.fontawesome.com/918c2416d8.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-    <button class="myButton">Button 1</button> <br>
-    <button class="myButton">Button 2</button> <br>
-    <button class="myButton">Button 3</button> <br>
-    <button class="myButton">Button 4</button> <br>
+    <h1 id="heading">ROCK - PAPER - SCISSORS</h1>
+
+    <div id="hand-container">
+        <button id="rock-btn" onclick="playGame('rock')">
+            <i class="fa-solid fa-hand-fist fa-4x"></i>
+        </button>
+        <button id="paper-btn" onclick="playGame('paper')">
+            <i id="paper" class="fa-solid fa-hand fa-4x"></i>
+        </button>
+        <button id="scissor-btn" onclick="playGame('scissor')">
+            <i id="scissor" class="fa-solid fa-hand-scissors fa-4x"></i>
+        </button> 
+    </div>
     
+    <div id="result-window">
+        <h2 id="player-turn">PLAYER TURN: </h2>
+        <h2 id="computer-turn">COMPUTER TURN: </h2> <br>
+        <h2 id="result"> </h2>
+        <h2 id="scoreBoard">SCORE: </h2>
+    </div>    
 
     <script src="./index.js"></script>
 </body>
