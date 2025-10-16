@@ -1,0 +1,45 @@
+.slider{
+    background-color: black;
+}
+
+.slides img{
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+button{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 20px 20px;
+    background-color: hsla(0, 0%, 0%, 0.504);
+    color: white;
+    cursor: pointer;
+}
+
+#prev{
+    left: 0;
+}
+
+#next{
+    right: 0;
+}
+
+@keyframes fade{
+    from {
+        opacity: 0.5;
+        color: black;
+    }
+    to{
+        opacity: 1;
+        color: blue;
+    }
+}
