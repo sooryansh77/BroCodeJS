@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "73. JSON files.md",
+                "file": "74. Fetch data from an API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "73. JSON files"
+              "title": "74. Fetch data from an API"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5004348754883
+    "width": 274.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "33f10436b229ca4f",
@@ -171,7 +172,9 @@
   },
   "active": "2f52f7f112113bcf",
   "lastOpenFiles": [
+    "Untitled.md",
     "74. Fetch data from an API.md",
+    "Prototype.md",
     "73. JSON files.md",
     "72 Async Await.md",
     "Align-items vs Align-content in Flexbox.md",
@@ -206,9 +209,7 @@
     "57 Errors.md",
     "59. DOM in JavaScript.md",
     "Attachments",
-    "58. Calculator App.md",
     "Untitled.base",
-    "Untitled.canvas",
-    "create a link.md"
+    "Untitled.canvas"
   ]
 }

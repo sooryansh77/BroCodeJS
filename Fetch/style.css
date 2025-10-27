@@ -1,0 +1,19 @@
+#pokemonSearch{
+    height: 40px;
+    width: 350px;
+    font-size: 1.7rem;
+}
+
+button{
+    position: absolute;
+    height: 46px;
+    margin: 0px 10px;
+    font-size: 28px;
+}
+
+img{
+    position: absolute;
+    scale: 4;
+    top: 200px;
+    left: 200px;
+}
