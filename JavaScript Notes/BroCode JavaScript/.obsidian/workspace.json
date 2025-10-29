@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f52f7f112113bcf",
+            "id": "a51345cb3e58f0af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "74. Fetch data from an API.md",
+                "file": "75. Weather App Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "74. Fetch data from an API"
+              "title": "75. Weather App Project"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5004348754883,
-    "collapsed": true
+    "width": 274.5004348754883
   },
   "right": {
     "id": "33f10436b229ca4f",
@@ -170,14 +169,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "2f52f7f112113bcf",
+  "active": "a51345cb3e58f0af",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Attachments/image-39.png",
+    "62. Add and Change HTML.md",
+    "75. Weather App Project.md",
+    "Align-items vs Align-content in Flexbox.md",
     "74. Fetch data from an API.md",
     "Prototype.md",
     "73. JSON files.md",
     "72 Async Await.md",
-    "Align-items vs Align-content in Flexbox.md",
     "70 and 71 CallBack Hell and Promises.md",
     "56. Synchronous and Asynchronous Code.md",
     "[[70 and 71 CallBack Hell and Promises.md",
@@ -202,12 +203,10 @@
     "65. Hide-Show HTML Element.md",
     "64. Key Events.md",
     "63. Event Listeners.md",
-    "62. Add and Change HTML.md",
     "61. DOM Navigation.md",
     "CSS Grid.md",
     "JavaScript regex.md",
     "57 Errors.md",
-    "59. DOM in JavaScript.md",
     "Attachments",
     "Untitled.base",
     "Untitled.canvas"
